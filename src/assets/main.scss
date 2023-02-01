@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.headline-3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.active {
+  color: red;
+}
